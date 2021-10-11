@@ -1,0 +1,170 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.ProductCard{
+  width: 15vw;
+  height: 15vh;
+  /* border:1px solid rgb(204, 145, 201); */
+  border-radius: 1rem !important;
+  background-color: rgb(241, 234, 247);
+  text-align: center;
+  margin-left:3vw !important;
+  margin-bottom: 1vh;
+  display: inline-block;
+  padding-top: 3vh !important;
+  cursor: pointer;
+}
+.btn-add{
+  border-radius: 1rem !important;
+  background-color: rgb(224, 195, 250);
+  border:none !important;
+  width: 7vw !important;
+  height: 4vh !important;
+  color:  rgb(47, 0, 88) ;
+  margin-top: 5vh !important;
+  cursor: pointer;
+  
+
+}
+.btn-add1{
+  border-radius: 2rem !important;
+  background-color: rgb(224, 195, 250);
+  border:none !important;
+  width: 3vw !important;
+  height: 3vh !important;
+  color:  rgb(47, 0, 88) ;
+  margin-top: 5vh !important;
+  font-size: 16px;
+  cursor: pointer;
+  
+
+}
+.end1{
+  margin-left: 35vw !important;
+  width: 30vw !important;
+  height: 50vh !important;
+  cursor:unset;
+  font-size: 20px !important;
+  margin-top: 20vh !important;
+}
+.end{
+  margin-top: 20vh !important;
+  margin-left: 20vw !important;
+  width: 50vw !important;
+  height: 50vh !important;
+  cursor:unset;
+  font-size: 20px !important;
+}
+.btn-pay{
+  border-radius: 1rem !important;
+  background-color: rgb(224, 195, 250);
+  border:none !important;
+  width: 7vw !important;
+  height: 4vh !important;
+  color:  rgb(47, 0, 88) ;
+ 
+  cursor: pointer;
+}
+.btn-to-payment{
+  border-radius: 1rem !important;
+  background-color: rgb(224, 195, 250);
+  border:none !important;
+  cursor: pointer;
+  width: 10vw;
+  height: 6vh;
+  margin-left:45vw;
+  color:  rgb(47, 0, 88) ;
+  
+
+}
+.close{
+  border-radius: 1.25rem !important;
+  background-color: rgb(238, 223, 252);
+  border:none !important;
+  cursor: pointer;
+  /* width: 10vw;
+  height: 6vh; */
+ 
+  color:  rgb(47, 0, 88) ;
+
+}
+.li-nav{
+  display: inline;
+  color: white !important ;
+ 
+  margin-left: 2vw !important;
+  padding-top: 7vh !important;
+}
+.btn-nav{
+  background-color:rgb(211, 164, 164) !important ;
+  border: 1px solid rgb(211, 164, 164);
+  color: aliceblue !important;
+}
+.ul-nav{
+  margin-top: 0vh !important;
+  padding-top: 3vh !important;
+}
+.nav{
+  margin-top:0vh !important;
+  background-color:  rgb(199, 128, 240) !important;
+  height: 10vh !important;
+}
+.component{
+  width: 50vw ;
+}
+.page{
+  background-color: aquamarine ;
+}
+.POPUP{
+  border-radius: 1rem !important;
+  background-color: rgb(224, 195, 250);
+  border:none !important;
+  position: absolute;
+  z-index: 20 !important;
+  top:15vh ;
+  width:30vw ;
+  height: 30vh;
+  font-size: 28px;
+  padding-top: 2vh;
+  
+
+  left:35vw;
+
+
+}
